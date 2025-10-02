@@ -1,0 +1,236 @@
+Build a fully responsive, modern portfolio website for Pratik Bhure, a MERN Stack Developer, using only HTML, CSS, and JavaScript (no external frameworks like Bootstrap or Tailwind).
+The site must be impactful, professional, user-friendly, animated, and mobile-responsive.
+
+🔹 File Structure
+
+Create separate files for clarity:
+
+index.html
+css/style.css
+js/script.js
+assets/images/   (for profile photo, project images, icons)
+
+🔹 General Design System
+
+Color palette:
+
+Background: #0a0a0a (near-black)
+
+Primary Text: #ffffff (white)
+
+Secondary Text: #bbbbbb (light gray)
+
+Accent Color: #f9b234 (warm yellow/orange)
+
+Hover Accent: slightly lighter orange #ffcc4d
+
+Typography: Use Poppins (Google Fonts) for headings and body.
+
+Layout width: Max width 1200px, centered content.
+
+Spacing: Consistent padding and margin (min 20px).
+
+Border Radius: 12–20px for buttons, cards, inputs.
+
+Box Shadow: Subtle shadows for cards and hover effects.
+
+🔹 Page Layout & Sections
+1. Navigation (Left Sidebar Desktop / Hamburger Overlay Mobile)
+
+Fixed vertical sidebar on desktop with:
+
+Logo/Name at top (Pratik Bhure).
+
+Menu items (scroll-linked): Home, About, Skills, Portfolio, Experience, Contact.
+
+Each menu item has an icon + text (use font-awesome or inline SVG).
+
+Hover → highlight with accent color and smooth underline animation.
+
+Mobile (under 768px): Sidebar becomes hidden. Show a hamburger icon (☰) at top-left.
+
+On click → overlay slides in with full menu.
+
+Smooth open/close transition with blur background.
+
+2. Hero Section (Full Height)
+
+Background: dark gradient (linear-gradient(to right, #0a0a0a, #111111)).
+
+Left side (text):
+
+Heading: “Hi, I’m Pratik Bhure”
+
+Sub-heading: “MERN Stack Developer”
+
+Small tagline: “Building modern web experiences with clean design & code”
+
+CTA Button: “Hire Me” → scrolls to contact section.
+
+Availability Badge: pill-shaped, accent color, text: “Open to Opportunities”.
+
+Right side (visual):
+
+Circular profile image inside concentric animated rings (glowing, rotating slowly).
+
+Placeholder image if profile not uploaded yet.
+
+3. About Section
+
+Title: “About Me”
+
+Text: short bio (2–3 lines intro, 1 paragraph deeper). Example placeholder:
+
+"I am a passionate MERN Stack Developer skilled in building modern, responsive, and user-focused web applications. With expertise in MongoDB, Express.js, React, and Node.js, I love solving real-world problems through clean and efficient code."
+
+Quick Stats: 3–4 counters (Years of Experience, Projects Completed, Happy Clients). Numbers animate from 0 → value on scroll.
+
+4. Skills Section
+
+Title: “Skills”
+
+Vertical list of skills with animated progress bars:
+
+HTML5 – 95%
+
+CSS3 (Flexbox, Grid, Tailwind, Bootstrap) – 90%
+
+JavaScript (ES6+) – 90%
+
+React.js – 90%
+
+Node.js – 85%
+
+Express.js – 85%
+
+MongoDB – 85%
+
+REST APIs – 85%
+
+Git & GitHub – 80%
+
+Next.js – 75%
+
+UI/UX Basics – 70%
+
+Each bar fills with smooth animation on scroll.
+
+5. Experience Section
+
+Title: “Experience”
+
+Timeline layout: cards aligned vertically with icons for each job.
+
+Placeholder entries (to be updated later). Example:
+
+MERN Developer – Company Name (2022–Present)
+“Worked on building scalable full-stack web applications with React and Node.js.”
+
+Frontend Developer – Company Name (2021–2022)
+“Focused on responsive UI design and component-based development.”
+
+Animation: cards fade in and slide from left/right alternately.
+
+6. Portfolio Section
+
+Title: “My Work / Projects”
+
+Grid layout (3 columns desktop, 2 tablet, 1 mobile).
+
+Each project card includes:
+
+Project image (placeholder for now).
+
+Title and short one-liner.
+
+Accent badge (tech stack or category).
+
+Hover effect: image scales up slightly, overlay with “View Details”.
+
+Clicking a project: open modal/lightbox with larger screenshot, description, and link.
+
+For now, use 3–4 placeholders with dummy images.
+
+7. Contact Section
+
+Title: “Let’s Connect”
+
+Left side:
+
+Email (clickable mailto link) → [work.pratik0@gmail.com](mailto:work.pratik0@gmail.com)
+
+Phone → 7387476521
+
+Availability → “Open to Opportunities” badge.
+
+Right side:
+
+(Since you don’t want a form yet) add placeholder text: “Form Coming Soon”.
+
+8. Footer
+
+Black background with accent highlights.
+
+Left: copyright → “© 2025 Pratik Bhure. All rights reserved.”
+
+Right: social icons (placeholders: GitHub, LinkedIn, Twitter, Instagram). Hover color = accent.
+
+Small scroll-to-top button (circular, accent background).
+
+🔹 Animations & Interactions
+
+Smooth scrolling between sections (JS).
+
+Fade-in effects for sections on scroll.
+
+Progress bars animate only once when visible.
+
+Profile picture rings glow + rotate slowly.
+
+Buttons & cards → hover = lift + shadow + accent glow.
+
+Portfolio modal opens/closes with fade + scale animation.
+
+Navigation overlay (mobile) slides in with smooth animation.
+
+🔹 Responsiveness
+
+Desktop (≥1200px): left sidebar nav + wide content.
+
+Tablet (768–1199px): nav collapses to top bar; grid → 2 columns.
+
+Mobile (<768px): hamburger overlay nav; sections stack vertically; portfolio → 1 column.
+
+🔹 Accessibility
+
+Alt text for all images.
+
+Semantic HTML (header, nav, main, section, footer).
+
+ARIA labels for navigation & buttons.
+
+Contrast checked for readability.
+
+🔹 JavaScript Features
+
+Scroll animations with IntersectionObserver.
+
+Mobile menu toggle (open/close overlay).
+
+Portfolio modal open/close.
+
+Animated counters.
+
+Scroll-to-top button.
+
+🔹 Deliverables
+
+Fully responsive static site with above structure.
+
+Separate CSS and JS files linked to HTML.
+
+Use placeholders for profile photo, project screenshots, company logos until updated.
+
+Optimized images (lazy loading, responsive sizes).
+
+Ready to deploy on Vercel as static site.  so provide me full end to end code in separate files make it mobile responsive as well
