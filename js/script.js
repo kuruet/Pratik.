@@ -9,6 +9,26 @@ document.addEventListener('DOMContentLoaded', function() {
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     const modal = document.getElementById('portfolioModal');
     const modalClose = document.getElementById('modalClose');
+    const themeToggle = document.getElementById('themeToggle');
+
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    if (savedTheme === 'light') {
+        document.body.classList.add('light-theme');
+        themeToggle.querySelector('i').classList.replace('fa-moon', 'fa-sun');
+    }
+
+    themeToggle.addEventListener('click', function() {
+        document.body.classList.toggle('light-theme');
+        const icon = themeToggle.querySelector('i');
+        
+        if (document.body.classList.contains('light-theme')) {
+            icon.classList.replace('fa-moon', 'fa-sun');
+            localStorage.setItem('theme', 'light');
+        } else {
+            icon.classList.replace('fa-sun', 'fa-moon');
+            localStorage.setItem('theme', 'dark');
+        }
+    });
 
     mobileMenuToggle.addEventListener('click', function() {
         sidebar.classList.add('active');

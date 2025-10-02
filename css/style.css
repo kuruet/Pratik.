@@ -13,6 +13,19 @@
     --accent-hover: #ffcc4d;
     --sidebar-width: 280px;
     --transition: all 0.3s ease;
+    --shadow-color: rgba(249, 178, 52, 0.3);
+    --border-color: rgba(249, 178, 52, 0.1);
+}
+
+body.light-theme {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --text-primary: #1a1a1a;
+    --text-secondary: #666666;
+    --accent: #f9b234;
+    --accent-hover: #e6a02d;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border-color: rgba(0, 0, 0, 0.1);
 }
 
 html {
@@ -940,6 +953,54 @@ section.visible {
 .modal-links a {
     flex: 1;
     text-align: center;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1001;
+    width: 50px;
+    height: 50px;
+    background: var(--accent);
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0 4px 20px var(--shadow-color);
+}
+
+.theme-toggle:hover {
+    background: var(--accent-hover);
+    transform: scale(1.1);
+}
+
+.theme-toggle i {
+    font-size: 22px;
+    color: var(--bg-primary);
+}
+
+body.light-theme .theme-toggle {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar,
+.hero-section,
+.about-section,
+.skills-section,
+.experience-section,
+.portfolio-section,
+.contact-section,
+.footer,
+.modal-content {
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 @media (max-width: 1199px) {
