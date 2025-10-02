@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+  <rect fill="#111111" width="600" height="400"/>
+  <rect fill="#f9b234" x="50" y="50" width="80" height="80" rx="10"/>
+  <rect fill="#333333" x="150" y="50" width="400" height="20" rx="5"/>
+  <rect fill="#333333" x="150" y="90" width="300" height="20" rx="5"/>
+  <rect fill="#f9b234" x="50" y="160" width="500" height="40" rx="10" opacity="0.3"/>
+  <circle fill="#f9b234" cx="300" cy="280" r="60" opacity="0.5"/>
+  <text fill="#ffffff" font-family="Poppins,sans-serif" font-size="24" font-weight="600" x="50%" y="90%" text-anchor="middle">E-Commerce Platform</text>
+</svg>
