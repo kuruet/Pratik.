@@ -85,6 +85,11 @@ body {
     transition: var(--transition);
     border-right: 1px solid rgba(249, 178, 52, 0.1);
 }
+@media (max-width: 768px) {
+    .sidebar {
+        background: var(--bg-secondary);
+    }
+}
 
 .sidebar-header {
     margin-bottom: 50px;
