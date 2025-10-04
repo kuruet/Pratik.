@@ -11,13 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="starfield.css">
-
 </head>
 <body>
-
-     <canvas id="starfield"></canvas>
-
+    
     <div class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle navigation menu">
         <i class="fas fa-bars"></i>
     </div>
@@ -64,7 +60,7 @@
                             <div class="ring ring-1"></div>
                             <div class="ring ring-2"></div>
                             <div class="ring ring-3"></div>
-                            <img src="assets/images/profile-bat.jpeg" alt="Pratik Bhure - MERN Stack Developer" class="profile-img">
+                            <img src="assets/images/profile.svg" alt="Pratik Bhure - MERN Stack Developer" class="profile-img">
                         </div>
                     </div>
                 </div>
@@ -716,28 +712,28 @@
                     </div>
                     <div class="portfolio-item" data-project="3">
                         <div class="portfolio-image">
-                            <img src="assets/images/image-search.jpeg" alt="Task Management App">
+                            <img src="assets/images/SwiftShare.jpeg" alt="Task Management App">
                             <div class="portfolio-overlay">
                                 <span class="view-details">View Details</span>
                             </div>
                         </div>
                         <div class="portfolio-info">
-                            <h3 class="portfolio-title">Image Search Engine</h3>
-                            <p class="portfolio-description">A fast, responsive image search engine powered by the Unsplash API that delivers high-quality photos instantly.</p>
-                            <span class="portfolio-badge">JS & API</span>
+                            <h3 class="portfolio-title">Task Management App</h3>
+                            <p class="portfolio-description">Collaborative project management tool with team features and notifications</p>
+                            <span class="portfolio-badge">Full Stack</span>
                         </div>
                     </div>
                     <div class="portfolio-item" data-project="4">
                         <div class="portfolio-image">
-                            <img src="assets/images/weather.jpeg" alt="Weather Forecast App">
+                            <img src="assets/images/project4.svg" alt="Weather Forecast App">
                             <div class="portfolio-overlay">
                                 <span class="view-details">View Details</span>
                             </div>
                         </div>
                         <div class="portfolio-info">
-                            <h3 class="portfolio-title">Weather  App</h3>
-                            <p class="portfolio-description">Real-time weather application with location-based forecasts</p>
-                            <span class="portfolio-badge">JS & API</span>
+                            <h3 class="portfolio-title">Weather Forecast App</h3>
+                            <p class="portfolio-description">Real-time weather application with location-based forecasts and alerts</p>
+                            <span class="portfolio-badge">React & API</span>
                         </div>
                     </div>
                 </div>
@@ -779,11 +775,6 @@
                             </div>
                         </div>
                     </div>
-
-
-
-                     
-
                     <div class="contact-form-placeholder">
                         <div class="form-placeholder-content">
                             <i class="fas fa-paper-plane"></i>
@@ -803,13 +794,13 @@
                         <a href="https://github.com/kuruet" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <a href="https://linkedin.com/in/pratikbhure" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                             <i class="fab fa-linkedin"></i>
                         </a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                        <a href="https://twitter.com/pratikbhure" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <a href="https://instagram.com/pratikbhure" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
@@ -846,6 +837,5 @@
     </div>
 
     <script src="js/script.js"></script>
-    <script src="starfield.js"></script>
 </body>
 </html>

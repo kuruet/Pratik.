@@ -1,0 +1,35 @@
+/* 🌌 Starfield Canvas Styling */
+#starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #0a0f1c 0%, #000000 100%);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* 🌟 Example Content */
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.content p {
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
